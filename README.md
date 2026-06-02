@@ -2,6 +2,7 @@
 
 ![ChurnSense Banner](assets/banner/banner.png)
 
+
 # 🎯 ChurnSense
 
 ## Transforming Customer Churn Prediction into Customer Retention Intelligence
@@ -213,7 +214,7 @@ Raw Data (IBM Telco CSV)
   Model Training (5 algorithms)
          │
          ▼
-      XGBoost ✅
+      XGBoost 
          │
          ▼
   SHAP Explainability
