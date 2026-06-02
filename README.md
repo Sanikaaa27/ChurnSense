@@ -129,42 +129,42 @@ Based on the IBM Telco dataset (7,043 customers, avg. $65/month):
 ### 🎯 Tab 1 — Risk Prediction Engine
 Enter customer attributes → instantly get churn probability, health score (0–100), customer segment, revenue at risk, SHAP feature chart, model insight report, and a recommended retention strategy.
 
-![Risk Prediction Engine](assets/screenshots/tab1_risk_prediction_engine/overview.png)
+![Risk Prediction Engine](assets/screenshots/tab1_risk_prediction_engine/01_input_form.png)
 
 ---
 
 ### 🔄 Tab 2 — Retention Strategy Simulator
 Simulate 4 pre-built retention interventions and a fully custom what-if simulator. See exactly how much each action reduces churn risk — quantified.
 
-![Retention Strategy Simulator](assets/screenshots/tab2_retention_strategy_simulator/overview.png)
+![Retention Strategy Simulator](assets/screenshots/tab2_retention_strategy_simulator/01_strategy_overview.png)
 
 ---
 
 ### 💡 Tab 3 — Retention Decision Center
 SHAP-driven primary and secondary action recommendations, a 30-day week-by-week execution roadmap, and a business impact chart comparing Revenue at Risk vs Retention Investment vs Net Savings.
 
-![Retention Decision Center](assets/screenshots/tab3_retention_decision_center/overview.png)
+![Retention Decision Center](assets/screenshots/tab3_retention_decision_center/01_action_recommendations.png)
 
 ---
 
 ### 📊 Tab 4 — Batch Analysis Engine
 Upload any CSV → score hundreds of customers at once → download a prioritised risk report. Sample CSV template included.
 
-![Batch Analysis](assets/screenshots/tab4_batch_analysis/overview.png)
+![Batch Analysis](assets/screenshots/tab4_batch_analysis/01_upload_interface.png)
 
 ---
 
 ### 📈 Tab 5 — Business Intelligence Dashboard
 Historical analysis of 1,409 test customers — risk tier distribution, churn probability histogram, average churn risk by tenure group, and annual revenue at risk by tier.
 
-![Business Intelligence Dashboard](assets/screenshots/tab5_business_intelligence_dashboard/overview.png)
+![Business Intelligence Dashboard](assets/screenshots/tab5_business_intelligence_dashboard/01_business_intelligence_dashboard.png)
 
 ---
 
 ### ℹ️ Tab 6 — System Overview & Model Analytics
 ROC Curve with operating point marked, interactive Confusion Matrix, SHAP-Based Top Churn Driver Analysis, Threshold Sensitivity Slider, and full Model Comparison Table across all 5 algorithms.
 
-![System Overview](assets/screenshots/tab6_system_overview/overview.png)
+![System Overview](assets/screenshots/tab6_system_overview/01_project_overview.png)
 
 ---
 
@@ -180,7 +180,7 @@ In addition to the Streamlit application, a dedicated Power BI dashboard was dev
 - Churn by Tenure
 - Revenue Exposure Analysis
 
-![Power BI Dashboard 1](assets/screenshots/powerbi/dashboard_1.png)
+![Power BI Executive Dashboard](assets/screenshots/powerbi_dashboard/01_executive_summary.png)
 
 ---
 
@@ -191,8 +191,8 @@ In addition to the Streamlit application, a dedicated Power BI dashboard was dev
 - Customer Risk Segmentation
 - Support Service Impact
 - Interactive Filters
-
-![Power BI Dashboard 2](assets/screenshots/powerbi/dashboard_2.png)
+  
+![Power BI Customer Intelligence Dashboard](assets/screenshots/powerbi_dashboard/02_customer_intelligence.png)
 
 ---
 
@@ -532,8 +532,6 @@ pip install -r requirements.txt
 streamlit run app/streamlit_app.py
 ```
 
-Open `http://localhost:8501` in your browser.
-
 ---
 
 ## 🔮 Future Scope
@@ -543,7 +541,6 @@ Open `http://localhost:8501` in your browser.
 - [ ] Email campaign automation for retention outreach
 - [ ] Multi-industry model variants — SaaS, Banking, E-commerce
 - [ ] A/B testing framework for measuring retention intervention effectiveness
-- [ ] Customer Lifetime Value regression layer (predict CLV, not just churn)
 - [ ] Slack/Teams alerting for newly flagged high-risk customers
 
 ---
