@@ -1,0 +1,47 @@
+{
+  "name": "ChurnDashboardTheme",
+  "dataColors": [
+    "#C0392B",
+    "#27AE60",
+    "#E67E22",
+    "#2C3E50",
+    "#2980B9",
+    "#8E44AD",
+    "#16A085",
+    "#F1C40F"
+  ],
+  "background": "#F4F6F9",
+  "foreground": "#2C3E50",
+  "tableAccent": "#2980B9",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [
+          {
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "fontSize": [
+          {
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "calloutValue": [
+          {
+            "fontSize": 28,
+            "fontBold": true
+          }
+        ],
+        "label": [
+          {
+            "fontSize": 11
+          }
+        ]
+      }
+    }
+  }
+}
