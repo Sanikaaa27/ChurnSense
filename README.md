@@ -16,12 +16,6 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![Power BI](https://img.shields.io/badge/Power%20BI-Executive%20Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com)
 
-<br>
-
-> ⭐ Star this repo if you find it useful!
-
-<br>
-
 
 </div>
 
@@ -521,8 +515,6 @@ ChurnSense/
 └── README.md
 ```
 
-> Note: `venv/`, `api/`, and `__pycache__/` are excluded via `.gitignore`.
-
 ---
 
 ## ⚡ Local Setup
@@ -552,14 +544,6 @@ Open `http://localhost:8501` in your browser.
 - [ ] A/B testing framework for measuring retention intervention effectiveness
 - [ ] Customer Lifetime Value regression layer (predict CLV, not just churn)
 - [ ] Slack/Teams alerting for newly flagged high-risk customers
-
----
-
-## 🏷️ Tags
-
-`machine-learning` `data-science` `customer-churn` `xgboost` `shap` `streamlit` `powerbi` `predictive-analytics` `customer-retention` `classification` `explainable-ai` `python`
-
-> Add these as **GitHub Topics** in your repository settings for better discoverability.
 
 ---
 
